@@ -1,7 +1,5 @@
-function Objects() 
-{
- return var recipes = {}
-}
+var recipes = {}
+
 
 function updateObjectWithKeyAndValue (obj, key, value) 
 {
