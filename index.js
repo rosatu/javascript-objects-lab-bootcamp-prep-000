@@ -4,9 +4,11 @@ function Objects()
  return recipes
 }
 
-function updateObjectWithKeyAndValue (object, key, value) {
-    return Object.assign({}, object, {key:value})
+function updateObjectWithKeyAndValue (obj, key, value) 
+{
+  return Object.assign({}, obj, { [key]: value })
 }
+
   function destructivelyUpdateObjectWithKeyAndValue(object, key, value)
     {
       object[key] = value
